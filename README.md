@@ -38,15 +38,14 @@ Original BTC Pracker 100k:
 
 ![Pracker](https://github.com/user-attachments/assets/9b5b7b4c-9bb3-4b2c-9c01-70da3409342d)
 
-New Versions (labels were mixed up):
+Last Versions (labels were mixed up):
 
 <img width="640" height="966" alt="BTC-Pracker" src="https://github.com/user-attachments/assets/1434909a-c298-453f-a7a9-63e0b2715a52" />
 
-Even Newer Version (Profit Percentage) and the Options:
 
-<img width="639" height="447" alt="tracker" src="https://github.com/user-attachments/assets/9f3536d3-a889-4bd1-b4e5-8b3aa48688c6" />
-<img width="401" height="499" alt="options" src="https://github.com/user-attachments/assets/7cd7284a-85b6-4219-87e6-777ecff18d5d" />
-
+Last Build (BTCPWelcome.py) Now with Dollar, better optimisation and a Welcomescreen:
+<img width="400" height="550" alt="options" src="https://github.com/user-attachments/assets/79a68598-92f8-44fe-b5c7-a333f26de6a7" />
+<img width="644" height="453" alt="usd" src="https://github.com/user-attachments/assets/66f16d74-6218-42eb-9661-b196135c8094" />
 
 -----------------------------------------
 -----------------------------------------
@@ -71,7 +70,16 @@ Changelog:
 -> 12h AVG got fixed, now showing correct AVG.
 ->AVG Price got moved besides Line
 _________________________________________
+
+BTC Profitpercentage:
+Percenttracker for youre P/L, calculated of the cost of your AVG.
+_________________________________________
+
+BTCPWelcome:
+Optimisation, Dollarprice in Options, a Welcomescreen while loading the Program at start.
+
+_________________________________________
+
 Next Versions:
--New Realtime Trackers besides the newly added, ETH, LTC, PEP, XMR .
--Optimization
--BTC-Pracker shows in Toolbar
+We'll see what comes to mind.
+
