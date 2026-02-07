@@ -1107,7 +1107,7 @@ def update_conversion_reverse(event=None):
         currency_amount = float(eur_entry.get())
         if last_price and last_price > 0:
             btc_value = currency_amount / last_price
-            reverse_conversion_label.config(text=f"{btc_value:.6f} BTC")
+            reverse_conversion_label.config(text=f"{btc_value:.8f} BTC")
         else:
             reverse_conversion_label.config(text="0.000000 BTC")
     except ValueError:
@@ -1615,7 +1615,7 @@ if __name__ == "__main__":
     eur_entry = tk.Entry(reverse_conversion_frame, bg="#212121", fg="grey", width=12)
     eur_entry.pack(side="left", padx=5)
 
-    reverse_conversion_label = tk.Label(reverse_conversion_frame, text="0.000000 BTC", bg="#212121", fg="grey", font=("Arial", 10))
+    reverse_conversion_label = tk.Label(reverse_conversion_frame, text="0.00 BTC", bg="#212121", fg="grey", font=("Arial", 10))
     reverse_conversion_label.pack(side="left")
 
     eur_entry.bind("<KeyRelease>", lambda e: debounced_update_conversion_reverse())
@@ -1635,14 +1635,14 @@ if __name__ == "__main__":
     tk.Label(root, text="USD :", bg="#212121", fg="grey").place(x=125, y=380)
     usd_entry = tk.Entry(root, bg="#212121", fg="grey", width=10)
     usd_entry.place(x=160, y=380)
-    usd_eur_label = tk.Label(root, text="0.0000 EUR", bg="#212121", fg="grey")
+    usd_eur_label = tk.Label(root, text="0.00 EUR", bg="#212121", fg="grey")
     usd_eur_label.place(x=230, y=380)
 
     # EUR/USD Converter
     tk.Label(root, text="EUR :", bg="#212121", fg="grey").place(x=335, y=380)
     eur_usd_entry = tk.Entry(root, bg="#212121", fg="grey", width=10)
     eur_usd_entry.place(x=370, y=380)
-    eur_usd_label = tk.Label(root, text="0.0000 USD", bg="#212121", fg="grey")
+    eur_usd_label = tk.Label(root, text="0.00 USD", bg="#212121", fg="grey")
     eur_usd_label.place(x=440, y=380)
 
     # Current Rates
