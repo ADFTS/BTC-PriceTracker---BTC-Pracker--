@@ -38,12 +38,12 @@ Original BTC Pracker 100k:
 
 ![Pracker](https://github.com/user-attachments/assets/9b5b7b4c-9bb3-4b2c-9c01-70da3409342d)
 
-Last Versions (labels were mixed up):
+Old Versions (labels were mixed up):
 
 <img width="640" height="966" alt="BTC-Pracker" src="https://github.com/user-attachments/assets/1434909a-c298-453f-a7a9-63e0b2715a52" />
 
 
-Last Build (BTCPWelcome.py) Now with Dollar, better optimisation and a Welcomescreen:
+Last Build (BTCPRefined.py) Now with Dollar, better optimisation and a Welcomescreen:
 <img width="400" height="550" alt="options" src="https://github.com/user-attachments/assets/79a68598-92f8-44fe-b5c7-a333f26de6a7" />
 <img width="644" height="453" alt="usd" src="https://github.com/user-attachments/assets/66f16d74-6218-42eb-9661-b196135c8094" />
 
@@ -77,6 +77,11 @@ _________________________________________
 
 BTCPWelcome:
 Optimisation, Dollarprice in Options, a Welcomescreen while loading the Program at start.
+_________________________________________
+
+BTCPRefined:
+-Fixed Loading Window from starting always in the middle of the screen, now starts where the X,Y coordinates are set from window_position.txt
+-Fixed USD EUR price at the bottom, they are not any converter values any longer but instead directly received from API.
 
 _________________________________________
 
