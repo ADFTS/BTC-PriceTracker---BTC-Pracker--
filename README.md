@@ -42,10 +42,12 @@ Old Versions (labels were mixed up):
 
 <img width="640" height="966" alt="BTC-Pracker" src="https://github.com/user-attachments/assets/1434909a-c298-453f-a7a9-63e0b2715a52" />
 
-
-Last Build (BTCPRefined.py) Now with Dollar, better optimisation and a Welcomescreen:
+Last Build without Buttons and Online Indicator (BTCPRefined.py):
 <img width="400" height="550" alt="options" src="https://github.com/user-attachments/assets/79a68598-92f8-44fe-b5c7-a333f26de6a7" />
 <img width="644" height="453" alt="usd" src="https://github.com/user-attachments/assets/66f16d74-6218-42eb-9661-b196135c8094" />
+
+BTC Pracker 0.221:
+<img width="643" height="452" alt="Pracker0 221" src="https://github.com/user-attachments/assets/9afc1f73-be81-49f8-ae37-7c428a9ef4c4" />
 
 -----------------------------------------
 -----------------------------------------
