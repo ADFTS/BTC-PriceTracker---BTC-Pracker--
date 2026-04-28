@@ -19,15 +19,16 @@ you'll need to create the exe yourself because of 25mb limitation on github:
 
 Open Powershell, paste:
 >> pip install pyinstaller
+
 Success!
 ->
 Open Powershell in folder, paste:
 
 >> pyinstaller --onefile --windowed --icon=btc.ico --name="BTC Pracker" (Version).py
 
->> wait a min
+ wait a min
 
->> succes
+ succes!
 
 You can now find the .exe in the newly created "dist" folder.
 
