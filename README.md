@@ -47,11 +47,6 @@ BTC Pracker 0.221:
 
 -----------------------------------------
 -----------------------------------------
-
-known bugs:
--Theme applies not correctly automatically. Restart is needed.
--Big Dumps/Pumps will freeze Converter Value till restarted.
--Some temporary freezing while Dragging/Interacting with Window, Optimized Version will follow.
 _________________________________________
 Changelog:
 [BTC-Pracker-HeikinAshi/Baseline] :
