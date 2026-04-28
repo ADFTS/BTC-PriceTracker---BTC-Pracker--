@@ -24,7 +24,7 @@ Success!
 ->
 Open Powershell in folder, paste:
 
->> pyinstaller --onefile --windowed --icon=btc.ico --name="BTC Pracker" (Version).py
+>> pyinstaller --onefile --windowed --icon=btc.png --name="BTC Pracker" (Version).py
 
  wait a min
 
